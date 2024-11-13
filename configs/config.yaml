@@ -1,0 +1,12 @@
+app:
+  name: gitlab.aica.work/golang-zero-to-hero-01/group7
+  port: "8080"
+  version: "1.0"
+  env: dev
+
+secrets:
+  cloud-sql-gormhost: "127.0.0.1"
+  cloud-sql-port: "5432"
+  cloud-sql-username: "postgresuser"
+  cloud-sql-password: "postgrespassword"
+  cloud-sql-dbname: postgres
